@@ -31,6 +31,12 @@ Bundle for Salesforce with moment timezone
 })
 ```
 
+**Result:**
+
+```
+Current Time: 2024-06-01T18:40:09-04:00
+```
+
 **Important:** to ensure that the code runs in the global scope of the LWS sandbox instead of attempting to access the actual global scope, modify the script code to assign self to global.
 
 ```
@@ -42,9 +48,5 @@ Bundle for Salesforce with moment timezone
 
 https://developer.salesforce.com/docs/platform/lwc/guide/security-lwsec-js.html
 
-**Result**
 
-```
-Current Time: 2024-06-01T18:40:09-04:00
-```
 
