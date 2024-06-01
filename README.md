@@ -31,6 +31,17 @@ Bundle for Salesforce with moment timezone
 })
 ```
 
+**Important:** to ensure that the code runs in the global scope of the LWS sandbox instead of attempting to access the actual global scope, modify the script code to assign self to global.
+
+```
+(function (global) {
+  global = global || self;
+  global.myFunction = function () {};
+})(this);
+```
+
+https://developer.salesforce.com/docs/platform/lwc/guide/security-lwsec-js.html
+
 **Result**
 
 ```
