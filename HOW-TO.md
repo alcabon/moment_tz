@@ -90,7 +90,7 @@ Create an HTML file (e.g., index.html) to include and test your bundle.
     <script src="dist/bundle.js"></script>
     <script>
         // Use the globally exposed moment
-        const now = MyLibrary.moment.tz("America/New_York");
+        const now = moment_tz.moment.tz("America/New_York");
         console.log("Current time in New York:", now.format());
 
         // Display the current time in the output div
