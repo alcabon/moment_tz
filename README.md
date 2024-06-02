@@ -1,6 +1,6 @@
 # moment_tz
 
-Bundle IIFE for Salesforce with moment timezone ( https://www.npmjs.com/package/moment-timezone ). GPT-4: [HOW-TO](HOW-TO.md)
+Bundle IIFE for Salesforce for [moment-timezone](https://www.npmjs.com/package/moment-timezone). GPT-4: [HOW-TO](HOW-TO.md)
 
 **Component:**
 
