@@ -16,10 +16,11 @@ First, make sure you have esbuild and moment-timezone installed in your project.
 **bash**
 ```
 npm install esbuild moment-timezone
-Create an entry point JavaScript file:
 ```
 
-2. **Create a file (e.g., main.js) where you import moment-timezone and perform any setup or initialization you need.**
+2. **Create an entry point JavaScript file:**
+
+Create a file (e.g., main.js) where you import moment-timezone and perform any setup or initialization you need.**
 
 **javascript**
 ```
